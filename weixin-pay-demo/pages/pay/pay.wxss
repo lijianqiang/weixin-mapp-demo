@@ -1,0 +1,109 @@
+.main{
+    height: 100%;
+    background-color: #ffffff;
+}
+.modal-main {
+  height: 320rpx;
+  padding-top: 80rpx;
+}
+.modal-item-icon {
+  text-align: center;
+  height: 144rpx;
+  line-height:144rpx;
+  color: #000000;
+  padding: 12rpx;
+}
+.logo {
+  width: 144rpx;
+  height: 144rpx;
+  border-radius: 10rpx;
+}
+.modal-item-01 {
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size:36rpx;
+}
+.modal-item-txt {
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: #818181;
+  padding-top: 40rpx;
+  padding-bottom:30rpx;
+  font-size: 34rpx;
+}
+.modal-item-discount {
+  text-align: center;
+  font-size: 36rpx;
+  padding-top: 90rpx;
+}
+.pay-money {
+  height: 105rpx;
+  line-height: 105rpx;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 30rpx;
+}
+.pay-tip{
+  color:#818181;
+  font-weight: 200;
+  font-size: 32rpx;
+  padding-right: 16rpx;
+}
+.icon-money {
+  font-size: 80rpx;
+  margin-right:10rpx;
+}
+.final-price {
+  font-size: 100rpx;
+}
+.origin-price {
+  text-decoration:line-through;
+  float:right;
+}
+.pay-money-sub {
+  line-height:40rpx;
+  height: 40rpx;
+  color:#818181;
+  text-align: left;
+  font-size: 28rpx;
+  margin: 0 70rpx;
+  border-top: 1rpx solid #d3d3d3;
+  padding-top: 10rpx;
+  font-weight: 200;
+}
+.pay-money-sub.final-cut {
+  color: #f9b485;
+  border-top:none;
+  padding-top:0;
+}
+.pay-money-sub.final-cut .origin-price {
+  text-decoration:none;
+}
+.icon-rmb {
+  font-size: 42rpx;
+  font-weight: normal;
+}
+.modal-item-03 {
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 160rpx;
+  color: #afafaf;
+}
+
+.app-normal-btn {
+  border: 1rpx solid #ffb608;
+  width: 388rpx;
+  line-height: 2.555556;
+  color: #ffb608;
+  text-align: center;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+  display: inline-block;
+  background-color: #fff;
+}

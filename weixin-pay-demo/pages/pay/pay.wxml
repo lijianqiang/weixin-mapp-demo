@@ -1,0 +1,31 @@
+<!--page/component/pay/result/result.wxml-->
+<view class="main">
+  <view class="modal-main">
+    <view class="modal-item-icon">
+      <image src="{{logo}}" class="logo" mode="aspectFill"></image>
+    </view>
+    <view class="modal-item-01">
+      <text>支付一下</text>
+    </view>
+  </view>
+  <view class="modal-item-discount">
+    <view class="pay-money">
+      <text class="pay-tip">应付</text>
+      <text class='icon-money'>¥</text>
+      <text class='final-price'>{{finalPrice}}</text>
+    </view>
+    <view class="pay-money-sub">
+      <text>原价</text>
+      <text class='origin-price'>¥{{originPrice}}</text>
+    </view>
+    <view class="pay-money-sub final-cut">
+      <text>优惠</text>
+      <text class='origin-price'>¥{{finalCut}}</text>
+    </view>
+  </view>
+  <view class="modal-item-03">
+    <button bindtap="requestPayment" loading="{{loading}}" class="app-normal-btn"> 
+        支 付
+    </button>
+  </view>
+</view>
