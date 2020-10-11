@@ -1,7 +1,7 @@
 /*
 * 公共配置
 */
-const test_host = "https://api.huajietaojin.cn";
+const test_host = "https://api.bytehonor.com";
 
 const product_host = "https://api.bytehonor.com";
 
