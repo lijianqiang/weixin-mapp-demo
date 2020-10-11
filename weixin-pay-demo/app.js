@@ -17,7 +17,7 @@ App({
     //     console.log(res.code)
     //   }
     // })
-    weixinService.init()
+    weixinService.init(true)
     // 获取用户信息
     wx.getSetting({
       success: res => {
